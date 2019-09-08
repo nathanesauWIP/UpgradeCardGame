@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"pyqt5" = "*"
+pytest = "*"
+
+[dev-packages]
+pylint = "*"
+"autopep8" = "*"
+rope = "*"
+
+[requires]
+python_version = "3.6"
